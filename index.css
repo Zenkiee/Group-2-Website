@@ -83,7 +83,7 @@ section {
 
 #home {
     display: flex;
-    margin-top: 80px;
+    margin-top: 60px;
     justify-content: space-between;
     align-items: center;
 }
