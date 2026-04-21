@@ -83,7 +83,6 @@ section {
 
 #home {
     display: flex;
-    margin-top: 60px;
     justify-content: space-between;
     align-items: center;
 }
@@ -93,9 +92,9 @@ section {
 }
 
 .text h1 {
-    font-size: 60px;
+    font-size: 70px;
     margin-bottom: 20px;
-    font-weight: 550;
+    font-weight: bold;
     }
 
 .text p {
@@ -146,6 +145,7 @@ nav a:hover {
 #home {
     flex-direction: column;
     text-align: center;
+    margin-top: 90px;
 }
 
 .text {
@@ -162,17 +162,17 @@ nav a:hover {
     display: block;
 }
 
+
 .nav-links {
     display: none;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     text-align: center;
-    margin-top: 10px;
+    gap: 12px;
 }
 
 .nav-links a {
     display: block;
-    margin: 10px 0;
 }
 
 .nav-links.active {
@@ -180,10 +180,10 @@ nav a:hover {
 }
 
 .nav-buttons {
-    width: 100%;
-    justify-content: center;
-    margin-top: 10px;
+    max-width: 40%;
+    text-align: center;
+    gap: 10px;
+    flex-direction: column;
 }
-
 
 }
